@@ -1,0 +1,288 @@
+}
+.sticky-bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100vh;
+    height: 241px;
+}
+
+.blog-footer {
+    padding: 2.5rem 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+}
+
+.allButFooter {
+    min-height: calc(100vh - 40px);
+}
+
+.nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active {
+    color: rgb(75, 82, 87) !important;
+    cursor: default;
+    background-color: rgba(161, 161, 161, 0.6) !important;
+}
+
+.nav-link:hover, .nav-link.active:hover, .navbar-toggler:hover {
+    background-color: rgba(161, 161, 161, 1);
+    text-decoration: underline;
+}
+
+.navbar-toggler {
+    position: relative;
+    color: #4b5257;
+    border-color: rgba(161, 161, 161, 1);
+    background-color: rgba(161, 161, 161, 0.6);
+    padding: 8px 12px;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.navbar-collapse{
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 99;
+}
+
+.navbar-collapse.show {
+    display: inline-flex;
+}
+
+.img-no-stretch{
+    object-fit: cover
+}
+
+.social-psychology {
+    background-color: rgba(2, 117, 216, 0.5);
+}
+
+.neuropsycholgy {
+    background-color: rgba(108, 117, 125, 0.5);
+}
+
+.developmental-psychology{
+    background-color: rgba(40, 167, 69, 0.5);
+}
+
+.editable{
+    color: rgb(0, 0, 255);
+    border-bottom: 2px dashed rgb(0, 0, 255);
+}
+
+.quotation-open{
+    display: block;
+    float: left;
+    position: relative;
+    top: -5px;
+    font-weight: bold;
+    font-size:80px;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+.block-text{
+    display: block;
+    position: relative;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.quotation-close{
+    display: block;
+    float: right;
+    font-weight: bold;
+    font-size: 80px;
+    position: relative;
+    margin-top: -8%;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+.post-text{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: large;
+}
+
+.continue-reading{
+    text-decoration: underline rgb(1, 76, 140);
+}
+
+.card-primary{
+	padding: .75rem 1.25rem;
+	margin-bottom: 0;
+	background-color: rgba(2, 117, 216, 0.125);
+	border-bottom: 1px solid rgba(2, 117, 216, 0.125);
+}
+
+.card-secondary{
+	padding: .75rem 1.25rem;
+	margin-bottom: 0;
+	background-color: rgba(108, 117, 125, 0.125);
+	border-bottom: 1px solid rgba(108, 117, 125, 0.125);
+}
+
+.card-success{
+	padding: .75rem 1.25rem;
+	margin-bottom: 0;
+	background-color: rgba(40, 167, 69, 0.125);
+	border-bottom: 1px solid rgba(40, 167, 69, 0.125);
+}
+
+.post-nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: inline-block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.card{
+    position: relative;
+    z-index: 7;
+}
+
+#about-me{
+    border: 3px solid rgb(18, 171, 218);
+    padding: 0;
+    height: auto;
+}
+
+.fa-linkedin{
+    background-color: rgb(0, 123, 181);
+    color: rgb(255, 255, 255);
+    display: inline;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-linkedin:hover{
+    background-color: rgba(0, 123, 181, 0.8);
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+
+.fa-google{
+    background: rgb(221, 75, 57);
+    color: rgb(255, 255, 255);
+    display: inline;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-google:hover{
+    background: rgba(221, 75, 57, 0.8);
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+
+.get-in-touch{
+    margin: 50px 5px;
+}
+
+.fa-wpforms{
+    background: rgba(255, 193, 7, 1);;
+    color: rgb(255, 255, 255);
+    display: inline;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.footer-icon{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 50px 5px;
+}
+
+/*start google translate*/
+.google-translate {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    font-family: arial;
+}
+
+.goog-logo-link {
+    display: none !important;
+}
+
+.goog-te-gadget {
+    color: transparent !important;
+    line-height: 2px;
+}
+
+.goog-te-combo{
+    width: 85px;
+}
+
+.goog-tooltip {
+    display: none !important;
+}
+.goog-tooltip:hover {
+    display: none !important;
+}
+
+body{
+    top: 0px !important;
+}
+/*end google translate*/
+
+.header-div{
+    flex-direction: row;
+}
+
+@media (max-width: 767.98px) { 
+
+    .contact-card{
+        margin-bottom: 20px;
+    }
+
+    .footer-left{
+        display: block;
+        float: left;
+        width: 50%;
+    }
+
+    .footer-right{
+        display: block;
+        float: right;
+        width: 50%;
+    }
+
+    .google-translate{
+        display: none;
+    }
+
+    .header-div{
+        flex-direction: column;
+        min-height: 150px;
+    }
+
+    .header-logo{
+        max-width: 130px;
+        text-align: center;
+    }
+
+}
