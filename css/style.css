@@ -18,7 +18,7 @@
     min-height: calc(100vh - 40px);
 }
 
-p, h1, h2, h3, h4, h5, h6, a{
+.blog-header-logo{
     font-family: "Comic Sans MS",Helvetica,Arial,sans-serif;
 }
 
