@@ -3,3 +3,23 @@ The mindfull talk
 
 
 Color: #54e9ba
+
+new post in post
+
+ <div>
+                <div class="card rounded mb-3">
+                    <div class="card-header ...-psychology">
+                        <!--change the color background in css-->
+                        <strong class="d-inline-block mb-2 text-..."> subject </strong>
+                    </div>
+                    <div class="card-... card-body">
+                        <!--change the color background in css-->
+                        <h2 class="display-5 font-italic text-..."> Title article </h2>
+                        <div class="mb-1 text-muted">00 Nnn 2020</div>
+                        <p class="lead my-3">Text text text text...</p>
+                        <p class="lead mb-0 continue-reading"><a href="#"
+                                class="font-italic stretched-link">Continue
+                                reading...</a></p>
+                    </div>
+                </div>
+            </div>

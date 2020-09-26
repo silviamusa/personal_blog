@@ -60,7 +60,7 @@
                             Newsletter
                         </a>
                         <div id="popover_content_wrapper" style="display: none">
-                            <form name="submit-to-google-sheet">
+                            <form>
                                 <div class='form-group'>
                                     <label for='exampleInputName1'>Name</label>
                                     <input name="name" type='name' class='form-control' id='exampleInputName1'
@@ -73,7 +73,7 @@
                                     <small id='emailHelp' class='form-text text-muted'>We'll never share your email with
                                         anyone else.</small>
                                 </div>
-                                <button type='submit' class='btn btn-primary'>Submit</button>
+                                <button type='submit' class='btn btn-primary' id="but">Submit</button>
                             </form>
                         </div>
                     </div>
@@ -101,10 +101,10 @@
                     <div class="card-header card-success col-12 text-success">
                         <div class="row">
                             <div class="col-6">
-                                Developmental Psychology
+                                <strong>Developmental Psychology</strong>
                             </div>
                             <div class="col-6 text-right">
-                                26 Jun 2020
+                                <strong>26 Jun 2020</strong>
                             </div>
                         </div>
                     </div>
@@ -246,19 +246,6 @@
                     </div>
                 </div>
             </footer>
-
-            <script>
-                const scriptURL = '<https://script.google.com/macros/s/AKfycby4fGUNQ4KsMOKj6WV2U3z2chDoXYyA94S_ly1NSzrnbVkhsl8M/exec>'
-                const form = document.forms['submit-to-google-sheet']
-              
-                form.addEventListener('submit', e => {
-                  e.preventDefault()
-                  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                    .then(response => console.log('Success!', response))
-                    .catch(error => console.error('Error!', error.message))
-                })
-            </script>
-            <!--newsletter to google sheets-->
 
             <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
             <!--google translate-->
