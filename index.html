@@ -59,7 +59,7 @@
                             Newsletter
                         </a>
                         <div id="popover_content_wrapper" style="display: none">
-                            <form name="submit-to-google-sheet">
+                            <form name="Form/newsletter-subcribers">
                                 <div class='form-group'>
                                     <label for='exampleInputName1'>Name</label>
                                     <input name="name" type='name' class='form-control' id='exampleInputName1'
@@ -72,7 +72,7 @@
                                     <small id='emailHelp' class='form-text text-muted'>We'll never share your email with
                                         anyone else.</small>
                                 </div>
-                                <button type='submit' class='btn btn-primary'>Submit</button>
+                                <button type='submit' class='btn btn-primary' id="but">Submit</button>
                             </form>
                         </div>
                     </div>
@@ -99,19 +99,19 @@
             <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
                 <div class="row rounded overflow-hidden flex-md-row position-relative">
                     <div class="col-md-9 p-9 d-flex flex-column position-static">
-                        <strong class="d-inline-block mb-2 text-primary">Social Psychology</strong>
-                        <h2 class="display-5 font-italic">Social connection is the strongest protective factor for
-                            depression</h2>
-                        <div class="mb-1 text-muted">14 Aug 2020</div>
-                        <p class="lead my-3">Researchers from Massachusetts General Hospital (MGH) have
-                            identified a set of modifiable factors from a field of over 100 that could represent
-                            valuable targets for...</p>
-                        <a href="pages/3°post.html" class="lead mb-0 continue-reading stretched-link"
+                        <strong class="d-inline-block mb-2 text-danger">Work Psychology</strong>
+                        <h2 class="display-5 font-italic">Will being a jerk help your career?</h2>
+                        <div class="mb-1 text-muted">15 Sep 2020</div>
+                        <p class="lead my-3">Even with just a moment’s reflection, it’s easy to think of an individual
+                            in power as a person with a selfish, combative, and manipulative personalities - whether in
+                            business, politics, academia, or the arts. Seeing a disagreeable person in power prompts a
+                            question that is profoundly important and yet...</p>
+                        <a href="pages/4°post.html" class="lead mb-0 continue-reading stretched-link"
                             class="text-white font-weight-bold">Continue reading...</a>
                     </div>
 
                     <div class="col-md-3 d-md-block flex-column">
-                        <img src="Images/3°post-img.jpg" class="img-no-stretch" alt="Social connection"
+                        <img src="Images/4°post-img.jpg" class="img-no-stretch" alt="Working person"
                             class="bd-placeholder-img-thumbnail" class="img-thumbnail" class="img-responsive"
                             width="100%" height="100%" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
                             aria-label="Placeholder: Thumbnail">
@@ -120,6 +120,30 @@
             </div>
 
             <div class="row mb-2">
+                <div class="col-md-6">
+                    <div
+                        class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-primary">Social Psychology</strong>
+                            <h3 class="mb-0">Social connection is the strongest protective factor for
+                                depression</h3>
+                            <div class="mb-1 text-muted">14 Aug 2020</div>
+                            <p class="card-text mb-auto">Researchers from Massachusetts General Hospital (MGH) have identified a set of
+                                modifiable factors from a field of over 100 that could represent valuable targets
+                                for preventing
+                                depression in adults. In a study published in The American Journal of Psychiatry,
+                                the team named...</p>
+                            <a href="pages/3°post.html" class="continue-reading stretched-link">Continue reading...</a>
+                        </div>
+                        <div class="col-md-4 d-md-block flex-column">
+                            <img src="Images/3°post-img.jpg" class="img-no-stretch" alt="Social connection"
+                            class="bd-placeholder-img-thumbnail" class="img-thumbnail" class="img-responsive"
+                            width="100%" height="100%" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+                            aria-label="Placeholder: Thumbnail">
+                        </div>
+                    </div>
+                </div>
+
                 <div class="col-md-6">
                     <div
                         class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
@@ -137,28 +161,6 @@
                         </div>
                         <div class="col-md-4 d-md-block flex-column">
                             <img src="images/2°post-img.jpg" class="img-no-stretch" alt="Brain scan"
-                                class="bd-placeholder-img-thumbnail" class="img-thumbnail" class="img-responsive"
-                                width="100%" height="100%" preserveAspectRatio="xMidYMid slice" focusable="false"
-                                role="img" aria-label="Placeholder: Thumbnail">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div
-                        class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                        <div class="col p-4 d-flex flex-column position-static">
-                            <strong class="d-inline-block mb-2 text-success">Developmental Psychology</strong>
-                            <h3 class="mb-0">How our worries and stress can negatively affect children</h3>
-                            <div class="mb-1 text-muted">26 Jun 2020</div>
-                            <p class="mb-auto">Well-meaning adults often try to shield children from hearing about
-                                upsetting
-                                situations in the family. They tell them to leave the room, or they whisper among
-                                themselves.
-                                Adults believe...</p>
-                            <a href="pages/1°post.html" class="continue-reading stretched-link">Continue reading</a>
-                        </div>
-                        <div class="col-md-4 d-md-block flex-column">
-                            <img src="Images/1°post-img.jpg" class="img-no-stretch" alt="Stress child"
                                 class="bd-placeholder-img-thumbnail" class="img-thumbnail" class="img-responsive"
                                 width="100%" height="100%" preserveAspectRatio="xMidYMid slice" focusable="false"
                                 role="img" aria-label="Placeholder: Thumbnail">
@@ -206,19 +208,6 @@
                 </div>
             </div>
         </footer>
-
-        <script>
-            const scriptURL = '<https://script.google.com/macros/s/AKfycby4fGUNQ4KsMOKj6WV2U3z2chDoXYyA94S_ly1NSzrnbVkhsl8M/exec>'
-            const form = document.forms['submit-to-google-sheet']
-          
-            form.addEventListener('submit', e => {
-              e.preventDefault()
-              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                .then(response => console.log('Success!', response))
-                .catch(error => console.error('Error!', error.message))
-            })
-        </script>
-        <!--newsletter to google sheets-->
 
         <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
         <!-- google translate -->
