@@ -51,15 +51,15 @@
     line-height: 1;
 }
 
+.navbar-collapse.show {
+    display: inline-flex;
+}
+
 .navbar-collapse{
     position: sticky;
     top: 0;
     background-color: rgba(255, 255, 255, 1);
     z-index: 99;
-}
-
-.navbar-collapse.show {
-    display: inline-flex;
 }
 
 .img-no-stretch{
