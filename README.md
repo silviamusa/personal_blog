@@ -6,7 +6,7 @@
 git pull
 ```
 
-#### Push changes
+#### Push changes to repo
 ```
 git add --all
 git commit -m "message with your changes details here"
