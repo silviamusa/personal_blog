@@ -22,6 +22,11 @@
     font-family: "Comic Sans MS",Helvetica,Arial,sans-serif;
 }
 
+#news-btn{
+    border-color: rgb(221, 75, 57);
+    border-width: 2px;
+}
+
 /* #popover_content_wrapper{
     display: none;
 }
