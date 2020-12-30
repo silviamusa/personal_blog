@@ -2,18 +2,12 @@
 $(function () {
   $('[data-toggle="popover"]').popover({
     html: true,
+    trigger: "click",
     content: function () {
       return $('#popover_content_wrapper').html();
     }
   });
 });
-
-form.addEventListener('submit', e => {
-  e.preventDefault()
-  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-    .then(response => console.log('Success!', response))
-    .catch(error => console.error('Error!', error.message))
-})
 
 //Disable form submissions if there are invalid fields
 (function () {
@@ -33,8 +27,6 @@ form.addEventListener('submit', e => {
     });
   }, false);
 })();
-
-//dropdown menu
 
 //Google translate
 function googleTranslateElementInit() {
