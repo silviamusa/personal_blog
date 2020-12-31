@@ -18,4 +18,3 @@ cd /var/www/personal_blog
 (ls -la)
 git pull
 ```
-
