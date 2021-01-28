@@ -1,13 +1,13 @@
-The mindfull talk
-Psychologeek
-
-
-
 Color: #54e9ba
 
-new post in post
+Neuropsychology --> neuropsycholgy / text-secondary
+General Psychology --> general-psychology / text-pink
+Work Psychology --> work-psychology / text-danger
+Social Psychology --> social-psychology / text-primary
+Developmental Psychology --> developmental-psychology / text-success
 
-New post in post.html
+for a new post in  posts.html
+
 <div>
     <div class="card rounded mb-3">
         <div class="card-header ---psychology">
