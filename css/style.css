@@ -88,7 +88,11 @@
 }
 
 .general-psychology{
-    background-color: rgba(199, 34, 228, 0.5)
+    background-color: rgba(199, 34, 228, 0.5);
+}
+
+.psychoanalysis{
+    background-color: rgba(196, 179, 34, 0.5);
 }
 
 .card-primary{
@@ -126,8 +130,19 @@
 	border-bottom: 1px solid rgba(199, 34, 228, 0.125);
 }
 
+.card-yellow{
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(196, 179, 34, 0.125);
+    border-bottom: 1px solid rgba(196, 179, 34, 0.125);
+}
+
 .text-pink{
-    color:  rgb(199, 34, 228)
+    color:  rgb(199, 34, 228);
+}
+
+.text-yellow{
+    color: rgb(196, 179, 34);
 }
 
 .editable{

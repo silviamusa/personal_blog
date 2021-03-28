@@ -1,0 +1,283 @@
+<doctype html>
+    <html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title class="notranslate">Psychogeek</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <!--bootstrap css-->
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+            integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--bootstrap cdn-->
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <!--jQuery and Popper.js cdn-->
+
+        <script src="../js/custom.js"></script>
+        <!--javscript-->
+
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <!--css-->
+
+        <link rel="icon" type="image.png" href="../Images/logo.png" />
+        <!--logo icon-->
+    </head>
+
+    <body>
+
+        <div class="container allButFooter">
+            <header class="blog-header py-3">
+                <div class="row flex-nowrap header-div justify-content-between align-items-center">
+                    <div class="col-md-2 col-12 text-left header-logo">
+                        <a href="../index.html"><img class="img-responsive" src="../Images/logo.png" style="width:100%;"
+                                alt="Logo"></a>
+                    </div>
+                    <div class="col-md-8 col-12 text-center header-title">
+                        <a class="blog-header-logo notranslate text-dark" href="../index.html">
+                            <h1>Psychogeek</h1>
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-12 pt-1 text-center">
+                        <div class="google-translate">
+                            <div id="google_translate_element"><small>Translate this page</small></div>
+                        </div>
+                        <a tabindex="0" class="btn btn-secondary newsletter-mobile" role="button" data-toggle="popover"
+                            data-trigger="click" data-placement="bottom" title="Subscribe to the newsletter"
+                            id="news-btn" data-content="">
+                            Newsletter
+                        </a>
+                        <div id="popover_content_wrapper" style="display: none">
+                            <form name="Form/newsletter-subcribers" action="https://formspree.io/f/mpzolvpv"
+                                method="POST">
+                                <div class="form-group">
+                                    <label for="firstName">First name</label>
+                                    <input name="firstName" type="text" class="form-control" id="firstName"
+                                        placeholder="First name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email address</label>
+                                    <input name="email" type="email" class="form-control" id="email"
+                                        aria-describedby="emailHelp" placeholder="Enter email" required>
+                                    <small id="emailHelp" class="form-text text-muted">
+                                        We'll never share your email with anyone else.
+                                    </small>
+                                </div>
+                                <button type="submit" class="btn btn-primary" id="newsletterSubmit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!--header-->
+
+            <div class="nav-scroller navbar-collapse navbar-expand-lg py-2 mb-2 nav-pills nav-fill">
+                <nav class="nav d-flex justify-content-between notranslate">
+                    <button class="navbar-toggler navbar-inverse transparent" type="button" data-toggle="collapse"
+                        data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-inverse justify-content-between navbar-collapse" id="navbarNavDropdown">
+                        <a class="p-2 text-muted" href="../index.html">Home</a>
+                        <a class="p-2 text-muted" href="posts.html">Posts</a>
+                        <a class="p-2 text-muted" href="about.html">About</a>
+                        <a class="p-2 text-muted" href="contact.html">Contact</a>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="card border-yellow rounded mb-3">
+                <div class="card-header card-yellow col-12 text-yellow">
+                    <div class="row">
+                        <div class="col-6">
+                            Psychoanalysis
+                        </div>
+                        <div class="col-6 text-right">
+                            28 Mar 2021
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="post-text">
+                        <h2 class="card-title text-yellow">Tell me about your dreams </h2>
+                        <p class="card-text">
+                            As a student of psychology, the first question that people often ask me is: “Can you tell me
+                            what’s the meaning of that dream I made last day?”
+                            <br>
+                            I get it! Psychology is often associated with <strong>Freud</strong>, the father of psychoanalysis and the
+                            first to formulate a theory of dream interpretation, but dreams are only a small part
+                            treated in a psychoanalytic setting.
+                            <br>
+                            </br>
+                            <img src="../Images/freud.png" class="rounded float-right" alt="freud">
+                            Starting from the beginning, Freud (<a href="https://books.google.it/books?hl=it&lr=&id=U0t8CgAAQBAJ&oi=fnd&pg=PT9&dq=the+interpretation+of+dreams+freud&ots=Y5EHqB47G1&sig=8Z7BvXTMaxAqgeciiYpRxNsIUFs&redir_esc=y#v=onepage&q=the%20interpretation%20of%20dreams%20freud&f=false
+                            " target="_blank">1900</a>)
+                            explains that sources of dreams include stimuli from the external world, subjective
+                            experiences, organic stimuli within the body, and mental activities during sleep.
+                            For instance, empirical evidence (<a href="10.3389/fpsyg.2016.00332" target="_blank">Zhang,
+                                2016</a>) supported that memory
+                            consolidation, emotion regulation and reception of external stimuli can contribute to dream
+                            content.
+                            <br>
+                            </br>
+                            Freud suggested that some connection between real life and dreams are not random, but
+                            constrained by one’s unconscious desires. Along these lines, the interpretation of dreams
+                            can help understand the <strong>unconscious</strong>, which try to emerge in our sleep.
+                            <br>
+                            This conception about dreams, as a way for the unconscious to bypass the consciousness and
+                            express inadmissible desires, has dominated for more than half a century.
+                            <br>
+                            </br>
+                            <img src="../Images/bion.png" class="rounded float-left" alt="bion">
+                            <strong>Bion</strong> (<a href="https://books.google.it/books?hl=it&lr=&id=elqqliHDYIcC&oi=fnd&pg=PP1&dq=Learning+from+Experience+bion&ots=alCqvdi_lD&sig=M3uzBi79PdO-9i5p4XH-AU3FLks#v=onepage&q=Learning%20from%20Experience%20bion&f=false
+                            " target="_blank">1962a</a>, <a href="https://books.google.it/books?hl=en&lr=&id=lT5ZDwAAQBAJ&oi=fnd&pg=PT12&ots=ffuiWbmylo&sig=cA7_1ZmHZS7SbZbVvGpHR8EjFvs&redir_esc=y#v=onepage&q&f=false
+                            " target="_blank">1992b</a>) did a revolution and took into consideration just the psychic
+                            phenomenon of dreaming
+                            rather that the dream as an unconscious content to be deciphered. He was concerned more with
+                            the way we dream than with the dream’s symbolic content.
+                            <br>
+                            He described the dream as an essential function of the human mind: a result of a
+                            transformation from what he called <strong>beta element</strong>, the very first sensory matrix on which
+                            thought develops, into <strong>alpha element</strong>, which resemble the visual images with which we are
+                            familiar in dreams.
+                            <br>
+                            </br>
+                            According to this idea, the alpha function promotes the growth of thoughts; it produces
+                            alpha elements, suitable for use in dream-thinking and waking-unconscious thinking.
+                            In fact, he interprets dreaming as the unconscious processing of emotional experience, which
+                            occurs continuously and simultaneously with conscious thinking: both when we are awake and
+                            asleep. During sleep, the dream takes advantage of the suspension of consciousness, the
+                            dream activity makes possible those emotional experiences that could not be reached in the
+                            waking state. Bion hypothesizes the existence of a dream function that is also active in the
+                            waking state, even though shielded by perceptions and distractions operated in reality.
+                            With Bion, the dream is released from the state of consciousness and no longer needs sleep
+                            to exist.
+                            <br>
+                            The patient would take the dream into analysis in the hope of receiving the analyst’s help
+                            in
+                            completing the unconscious intolerable work, but dreams are themeselves the way we have
+                            already
+                            interpreted the facts.
+                            <br>
+                            Bionian thought has led several authors to equate the activity of dream thinking with the
+                            mental activity of waking, emphasizing the function of both of developing, maintaining and
+                            re-establishing the psychological organization of the self and the regulation of affects.
+                            <br>
+                            </br>
+                            <img src="../Images/ferro.png" class="rounded float-right" alt="ferro">
+                            We are close to the procedure that <strong>A. Ferro</strong> has called «transformations in dreams»,
+                            that is when the analyst mentally introduce the predicate "I had a dream" to the patient's
+                            communication, whatever it may be. This linguistic-cognitive ritual, immediately strips the
+                            external reality of its significance, predisposing the analyst to the “dreamiest” attention
+                            possible.
+                            <br>
+                            </br>
+                            Ferro (<a
+                                href="https://books.google.it/books/about/Psicoanalisi_oggi.html?id=HLzSMgEACAAJ&redir_esc=y"
+                                target="_blank">2013</a>)
+                            supports the need to reconstruct every communication as if it were a dream, and the need for
+                            patient and analyst to dream together.
+                            <br>
+                            The dream allows the analyst to work on the patient's alpha function, but also on his own,
+                            through a sort of training in the multiplicity of perspectives that the dream story offers.
+                            Within the analytic field, the dream remains the main monitoring tool, since it represents
+                            one of the most creative ways that the patient has to communicate his analytic experiences.
+                            <br>
+                            </br>
+                            With Ferro, there are no external, internal or transfert communications that do not belong
+                            to the setting within the analysis and that cannot be considered <strong>narrative derivatives</strong> of
+                            the dreamlike thought of waking. Even the more subjective elements such as the patient's
+                            dream belong to the field to signify and signal the movements of the waking dream related to
+                            the movement in which the dream is narrated. The field allows you to describe and collect
+                            emotions, clarifying and focusing them, using the <strong>characters</strong> of the setting, who lose their
+                            historical-referential status, to assume the characteristic of transformative processes of
+                            the analytic couple.
+                            <br>
+                            </br>
+                            So, finally, Ferro tells us that dreams should not be hardly interpreted: they are the
+                            clearest and simplest story and should be easy to understand. The process of attributing
+                            meaning to the dream, more than its symbolic decoding, can lead to recognizing oneself in
+                            its functioning and bringing out the need to arrive at a new, more complex, identity
+                            reality.
+                        </p>
+                    </div>
+                </div>
+                <div class="card-footer card-yellow border-yellow">
+                    <div>
+                        <p><strong>Author</strong>: Silvia Musarra </p>
+                        <br>
+                        <small>Note: Content may be edited for style and length.</small>
+                    </div>
+                </div>
+
+            </div>
+            <!--container-->
+
+            <footer class="blog-footer sticky-bottom col-12 p-0">
+                <div class="panel-footer container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 col-xs-12 justify-content-center align-self-center">
+                            <div class="panel panel-default>">
+                                <p>This site is not intended to provide, and does not constitute, medical or other
+                                    professional
+                                    advice. The content on <a href="../index.html">Psychogeek</a> is designed to inform
+                                    and not replace
+                                    any psychologic advice or psychiatric
+                                    treatment.</p>
+                            </div>
+                        </div>
+
+                        <div
+                            class="col-md-4 col-sm-6 col-xs-2 d-flex flex-column h100 justify-content-center align-self-center footer-left">
+                            <div class="panel panel-default">
+                                <p class="text-wrap">This site is maintained by <a href="about.html"
+                                        class="notranslate">Silvia
+                                        Musarra</a></p>
+                            </div>
+                        </div>
+
+                        <div
+                            class="col-md-2 col-sm-6 col-xs-10 d-flex flex-column text-left justify-content-center align-self-center footer-right">
+                            <div class="panel panel-default">
+                                <div class="get-in-touch">
+                                    <p class="text-primary"><a href="https://www.linkedin.com/in/silviamusarra/"
+                                            target="_blank" class="fa fa-linkedin footer-icon"></a>Linkedin</p>
+                                </div>
+                                <div class="get-in-touch">
+                                    <p class="text-danger"><a href="mailto: musarrasilvia@gmail.com" target="_blank"
+                                            class="fa fa-google footer-icon"></a>Gmail</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+            <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            <!--google translate-->
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                crossorigin="anonymous"></script>
+    </body>
+
+    </html>
