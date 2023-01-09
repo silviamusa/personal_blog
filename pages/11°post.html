@@ -1,0 +1,251 @@
+<doctype html>
+    <html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title class="notranslate">Psychogeek</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <!--bootstrap css-->
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+            integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--bootstrap cdn-->
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <!--jQuery and Popper.js cdn-->
+
+        <script src="../js/custom.js"></script>
+        <!--javscript-->
+
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <!--css-->
+
+        <link rel="icon" type="image.png" href="../Images/logo.png" />
+        <!--logo icon-->
+    </head>
+
+    <body>
+
+        <div class="container allButFooter">
+            <header class="blog-header py-3">
+                <div class="row flex-nowrap header-div justify-content-between align-items-center">
+                    <div class="col-md-2 col-12 text-left header-logo">
+                        <a href="../index.html"><img class="img-responsive" src="../Images/logo.png" style="width:100%;" alt="Logo"></a>
+                    </div>
+                    <div class="col-md-8 col-12 text-center header-title">
+                        <a class="blog-header-logo notranslate text-dark" href="../index.html">
+                            <h1>Psychogeek</h1>
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-12 pt-1 text-center">
+                        <div class="google-translate">
+                            <div id="google_translate_element"><small>Translate this page</small></div>
+                        </div>
+                        <a tabindex="0" class="btn btn-secondary newsletter-mobile" role="button" data-toggle="popover"
+                            data-trigger="click" data-placement="bottom" title="Subscribe to the newsletter" id="news-btn"
+                            data-content="">
+                            Newsletter
+                        </a>
+                        <div id="popover_content_wrapper" style="display: none">
+                            <form name="Form/newsletter-subcribers" action="https://formspree.io/f/mpzolvpv" method="POST">
+                                <div class="form-group">
+                                    <label for="firstName">First name</label>
+                                    <input name="firstName" type="text" class="form-control" id="firstName" placeholder="First name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email address</label>
+                                    <input name="email" type="email" class="form-control" id="email" 
+                                        aria-describedby="emailHelp" placeholder="Enter email" required>
+                                    <small id="emailHelp" class="form-text text-muted">
+                                        We'll never share your email with anyone else.
+                                    </small>
+                                </div>
+                                <button type="submit" class="btn btn-primary" id="newsletterSubmit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!--header-->
+
+            <div class="nav-scroller navbar-collapse navbar-expand-lg py-2 mb-2 nav-pills nav-fill">
+                <nav class="nav d-flex justify-content-between notranslate">
+                    <button class="navbar-toggler navbar-inverse transparent" type="button" data-toggle="collapse"
+                        data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-inverse justify-content-between navbar-collapse" id="navbarNavDropdown">
+                        <a class="p-2 text-muted" href="../index.html">Home</a>
+                        <a class="p-2 text-muted" href="posts.html">Posts</a>
+                        <a class="p-2 text-muted" href="about.html">About</a>
+                        <a class="p-2 text-muted" href="contact.html">Contact</a>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="card border-danger rounded mb-3">
+                <div class="card-header border-danger card-post col-12 text-danger">
+                    <div class="row">
+                        <div class="col-6">
+                            <strong>Work Psychology</strong>
+                        </div>
+                        <div class="col-6 text-right">
+                            <strong>27 Dec 2022</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="post-text">
+                        <h2 class="card-title text-post">Is job satisfaction fundamental in the workplace?</h2>
+                        <p class="card-text">
+                            Job satisfaction plays an essential role to retain an effective employee. Satisfied employees are adherence towards
+                            their work which lead to improve their performance and to the success of the organisation for which they work.
+                            </br>
+                            The concept of job satisfaction has been defined in many ways. However, the most used definition of job satisfaction in
+                            organizational research is the one proposed by Locke (1976), who described job satisfaction as
+
+                        <div class="blockquote blockquote-gray">
+                            <blockquote class="block-quote">
+                                <p class="quotation-open text-post">
+                                    “
+                                </p>
+                                <p class="block-text">
+                                    a pleasurable or positive emotional state resulting from the appraisal of one’s job or job experiences.
+                                </p>
+                                <p class="quotation-close text-post">
+                                    ”
+                                </p>
+                            </blockquote>
+                            <cite class="small">Edwin A. Locke <br><span class="blockquote__cite-title">American psychologist &nbsp;</span></cite>
+                        </div>
+
+                        <p class="card-text">
+                            Therefore, Job satisfaction is the feeling of wellbeing of employees about their job and includes multidimensional
+                            psychological responses to one’s job. Such responses have cognitive, affective and behavioral components. Locke’s
+                            definition of job satisfaction fits well with typical conceptualizations of social attitudes. However, social attitudes
+                            tend to be weak predictors of specific behaviors, while job satisfaction is more reliable and strongly related to job
+                            behaviors.
+                            </br>
+                            </br>
+                            Going deeper and more recently, job satisfaction has been described as a range of positive or negative feelings and
+                            emotions with which employees view their work (Karatepe, Uludag, Menevis, Hadzimehmedagic, & Baddar, 2006).
+                            </br>
+                            </br>
+                            Job satisfaction is distinguished by many facets among which we can point out salary, promotion, supervision, the work
+                            itself, coworkers, communication, working conditions and management. Moreover, it can be an important predictor of work
+                            behaviors, such as organizational commitment, absenteeism, turnover, motivation and employee relations.
+                            </br>
+                            </br>
+                            Starting from the interview phase, and especially while working, the satisfaction of the employee meets the satisfaction
+                            of the employer. The latter is characterized by the preparation in the field and the skills of the employees, who can
+                            give added value and respond to the needs of the organization. Therefore, it is necessary that the two roles meet
+                            halfway between what the employee would like to obtain and what the employer demands.
+                            </br>
+                            </br>
+                            In cases where the employee's demand and the employer's supply are not on the same level, this can lead to job
+                            dissatisfaction, which can bring to frustration, aggression, psychological withdrawal, poor physical health and
+                            shortened the life span of employees.
+                            </br>
+                            </br>
+                            Job dissatisfaction can produce reactions that are prejudicial to the achievement of the company's goals. Therefore, it
+                            is in the personal interest of the employers of organizations, as well as the employees themselves, to determine whether
+                            there is dissatisfaction and attempt to remedy it.
+                            </br>
+                            </br>
+                            Job satisfaction and dissatisfaction are psychological states that allow for numerous and varied alternatives of action,
+                            such as change job performances, individual and group protest, turnovers, change values and reactions, etc. All these
+                            alternatives may lead to different consequences, which can improve employee and employer satisfaction.
+                            </br>
+                            </br>
+                            It is important to point out that satisfaction is not everything in the workplace, it is just a prerequisite. For
+                            instance, employee engagement is another fundamental concept in addition to satisfaction. It represents the employee’s
+                            measure of engagement with the organization. Employees who feel involved and passionate in the company's goals and
+                            shares its values are more productive. If employees perceives their role as relevant within the company, in fact, they
+                            feel as an active part of the organization and, with the same skills, they will prove to be more efficient and
+                            collaborative than an unengaged employee.
+                            </br>
+                            </br>
+                            In conclusion, it is important to know and understand the difference between satisfaction and engagement, which is
+                            critical for an organization to make strategic decisions to create and improve the culture of engagement.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card-footer card-post border-danger">
+                    <div>
+                        <p><strong>Authors</strong>: Silvia Musarra
+                        <br>
+                        <p><small>Note: Content may be edited for style and length.</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--container-->
+
+        <footer class="blog-footer sticky-bottom col-12 p-0">
+            <div class="panel-footer container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 col-xs-12 justify-content-center align-self-center">
+                        <div class="panel panel-default>">
+                            <p>This site is not intended to provide, and does not constitute, medical or other
+                                professional
+                                advice. The content on <a href="../index.html">Psychogeek</a> is designed to inform
+                                and not replace
+                                any psychologic advice or psychiatric
+                                treatment.</p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="col-md-4 col-sm-6 col-xs-2 d-flex flex-column h100 justify-content-center align-self-center footer-left">
+                        <div class="panel panel-default">
+                            <p class="text-wrap">This site is maintained by <a href="about.html" class="notranslate">Silvia
+                                    Musarra</a></p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="col-md-2 col-sm-6 col-xs-10 d-flex flex-column text-left justify-content-center align-self-center footer-right">
+                        <div class="panel panel-default">
+                            <div class="get-in-touch">
+                                <p class="text-primary"><a href="https://www.linkedin.com/in/silviamusarra/"
+                                        target="_blank" class="fa fa-linkedin footer-icon"></a>Linkedin</p>
+                            </div>
+                            <div class="get-in-touch">
+                                <p class="text-danger"><a href="mailto: musarrasilvia@gmail.com" target="_blank"
+                                        class="fa fa-google footer-icon"></a>Gmail</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <!--google translate-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    </body>
+
+    </html>

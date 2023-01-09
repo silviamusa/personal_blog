@@ -71,70 +71,27 @@
     object-fit: cover
 }
 
-.social-psychology {
-    background-color: rgba(2, 117, 216, 0.5);
+.background-post {
+    background-color: rgba(211, 214, 216, 0.602);
 }
 
-.neuropsycholgy {
-    background-color: rgba(108, 117, 125, 0.5);
-}
-
-.developmental-psychology{
-    background-color: rgba(40, 167, 69, 0.5);
-}
-
-.work-psychology{
-    background-color: rgba(220, 53, 69, 0.5);
-}
-
-.general-psychology{
-    background-color: rgba(199, 34, 228, 0.5);
-}
-
-.psychoanalysis{
-    background-color: rgba(196, 179, 34, 0.5);
-}
-
-.card-primary{
+.card-post{
 	padding: .75rem 1.25rem;
 	margin-bottom: 0;
-	background-color: rgba(2, 117, 216, 0.125);
-	border-bottom: 1px solid rgba(2, 117, 216, 0.125);
+	background-color: rgba(255, 255, 255, 0.125);
+	border-bottom: 1px solid rgba(211, 214, 216, 0.602);
 }
 
-.card-secondary{
-	padding: .75rem 1.25rem;
-	margin-bottom: 0;
-	background-color: rgba(108, 117, 125, 0.125);
-	border-bottom: 1px solid rgba(108, 117, 125, 0.125);
+.border-pink{
+    border: 1px solid rgb(199, 34, 228, 0.602);
 }
 
-.card-success{
-	padding: .75rem 1.25rem;
-	margin-bottom: 0;
-	background-color: rgba(40, 167, 69, 0.125);
-	border-bottom: 1px solid rgba(40, 167, 69, 0.125);
+.border-yellow{
+    border: 1px solid rgb(196, 179, 34, 0.602);
 }
 
-.card-danger{
-	padding: .75rem 1.25rem;
-	margin-bottom: 0;
-	background-color: rgba(220, 53, 69, 0.125);
-	border-bottom: 1px solid rgba(220, 53, 69, 0.125);
-}
-
-.card-pink{
-    padding: .75rem 1.25rem;
-	margin-bottom: 0;
-	background-color:rgba(199, 34, 228, 0.125);
-	border-bottom: 1px solid rgba(199, 34, 228, 0.125);
-}
-
-.card-yellow{
-    padding: .75rem 1.25rem;
-    margin-bottom: 0;
-    background-color: rgba(196, 179, 34, 0.125);
-    border-bottom: 1px solid rgba(196, 179, 34, 0.125);
+.text-post{
+    color:  rgb(0, 0, 0);
 }
 
 .text-pink{
