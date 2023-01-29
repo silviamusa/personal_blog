@@ -17,6 +17,7 @@ Password: <github_pat_11AQ6MK7I0DDrQvVIWB86c_KPjGB4AZSJ9b7jtm0DrFDCI9aeCgeZrneT9
 ```
 #### Update server
 ```
+root- 
 cd /var/www/personal_blog
 (ls -la)
 git pull
