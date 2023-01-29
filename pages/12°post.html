@@ -1,0 +1,292 @@
+<doctype html>
+    <html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title class="notranslate">Psychogeek</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <!--bootstrap css-->
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+            integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--bootstrap cdn-->
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <!--jQuery and Popper.js cdn-->
+
+        <script src="../js/custom.js"></script>
+        <!--javscript-->
+
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <!--css-->
+
+        <link rel="icon" type="image.png" href="../Images/logo.png" />
+        <!--logo icon-->
+    </head>
+
+    <body>
+
+        <div class="container allButFooter">
+            <header class="blog-header py-3">
+                <div class="row flex-nowrap header-div justify-content-between align-items-center">
+                    <div class="col-md-2 col-12 text-left header-logo">
+                        <a href="../index.html"><img class="img-responsive" src="../Images/logo.png" style="width:100%;"
+                                alt="Logo"></a>
+                    </div>
+                    <div class="col-md-8 col-12 text-center header-title">
+                        <a class="blog-header-logo notranslate text-dark" href="../index.html">
+                            <h1>Psychogeek</h1>
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-12 pt-1 text-center">
+                        <a tabindex="0" class="btn btn-secondary newsletter-mobile" role="button" data-toggle="popover"
+                            data-trigger="click" data-placement="bottom" title="Subscribe to the newsletter"
+                            id="news-btn" data-content="">
+                            Newsletter
+                        </a>
+                        <div id="popover_content_wrapper" style="display: none">
+                            <form name="Form/newsletter-subcribers" action="https://formspree.io/f/mpzolvpv"
+                                method="POST">
+                                <div class="form-group">
+                                    <label for="firstName">First name</label>
+                                    <input name="firstName" type="text" class="form-control" id="firstName"
+                                        placeholder="First name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email address</label>
+                                    <input name="email" type="email" class="form-control" id="email"
+                                        aria-describedby="emailHelp" placeholder="Enter email" required>
+                                    <small id="emailHelp" class="form-text text-muted">
+                                        We'll never share your email with anyone else.
+                                    </small>
+                                </div>
+                                <button type="submit" class="btn btn-primary" id="newsletterSubmit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </header> <!--header-->
+
+            <div class="nav-scroller navbar-collapse navbar-expand-lg py-2 mb-2 nav-pills nav-fill">
+                <nav class="nav d-flex justify-content-between notranslate">
+                    <button class="navbar-toggler navbar-inverse transparent" type="button" data-toggle="collapse"
+                        data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-inverse justify-content-between navbar-collapse" id="navbarNavDropdown">
+                        <a class="p-2 text-muted" href="../index.html">Home</a>
+                        <a class="p-2 text-muted" href="posts.html">Posts</a>
+                        <a class="p-2 text-muted" href="about.html">About</a>
+                        <a class="p-2 text-muted" href="contact.html">Contact</a>
+                    </div>
+                </nav>
+            </div>
+
+            <div>
+                <div class="card border-success rounded mb-3">
+                    <div class="card-header border-success card-post col-12 text-success">
+                        <div class="row">
+                            <div class="col-6">
+                                <strong>Developmental Psychology</strong>
+                            </div>
+                            <div class="col-6 text-right">
+                                <strong>29 Jan 2023</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="post-text">
+                            <h2 class="card-title text-post">Why is play so important for a good development?</h2>
+                            <p class="card-text">
+                                Play is a vital part of a child's development and is essential for their physical,
+                                emotional and cognitive growth. Through play, children learn valuable skills that will
+                                serve them well throughout their lives.
+                                <br>
+                                </br>
+                                The first year of a child's life is a crucial time and play plays an important role for
+                                their development. Even from a very young age, infants can benefit from play and
+                                exploration. For example, an infant can learn about cause and effect through exploring
+                                different textures and objects. They can also learn about their own bodies and movements
+                                through reaching for and grasping toys.
+                                <br>
+                                </br>
+                                During the first year, infants also begin to develop their social and emotional skills
+                                through play. For instance, they can learn to communicate and interact with others
+                                through eye contact and facial expressions during social play. They can also develop
+                                their sense of self through self-exploration and self-discovery during solitary play.
+                                <br>
+                                </br>
+                                Play is also important after the first year of age. Firstly, play is an important tool
+                                for physical development. Children learn about their bodies and how to control them
+                                through play. They learn to run, jump, climb and use their fine and gross motor skills.
+                                They learn about balance and coordination through activities like riding a bike or
+                                playing sports. These physical skills are not only important for a child's physical
+                                health, but they also help to build self-confidence and self-esteem.
+                                <br>
+                                </br>
+                                Secondly, play is essential for emotional development. Children learn to express their
+                                emotions and feelings through play. They learn to communicate with others, to share and
+                                to take turns. They learn to cope with frustration and disappointment through games and
+                                activities that challenge them. They learn to solve problems and to think creatively.
+                                They also learn to build and maintain relationships with others.
+                                <br>
+                                </br>
+                                Finally, play is crucial for cognitive development. Children learn to think, to reason,
+                                and to problem-solve through play. They learn about the world around them and develop
+                                their curiosity and sense of wonder. They learn about cause and effect and how things
+                                work. They learn about numbers, letters, and shapes through games and activities. They
+                                also develop their memory, language, and critical thinking skills.
+                                <br>
+                                </br>
+                                Examples of play that can help with physical development include climbing on a
+                                playground, playing catch with a ball, or riding a tricycle. Emotional development can
+                                be supported through playing dress-up, acting out scenarios, or playing with dolls and
+                                action figures. Cognitive development can be supported through puzzles, building with
+                                blocks, or playing board games.
+                                <br>
+                                </br>
+                                Some other examples of play that can help with different aspects of child development
+                                include:
+                            <ul>
+                                <li>Pretend play, such as cooking with a play kitchen or having a tea party, can help
+                                children develop their creativity and imagination, as well as their social and emotional
+                                skills.</li>
+                                <li>Outdoor play, such as exploring nature or playing in the backyard, can help children
+                                develop their sense of curiosity and wonder, as well as their physical abilities.</li>
+                                <li>Manipulative play, such as playing with clay or building with LEGOs, can help children
+                                develop their fine motor skills and their ability to think spatially.</li>
+                                <li>Games that require strategy, such as chess or checkers, can help children develop
+                                their problem-solving and critical thinking skills.</li>
+                                <li>Reading and storytelling can help children develop their language and communication
+                                skills, as well as their imagination and creativity.</li>
+                            </ul>
+                                A very important object during child's development is the transitional object, which is
+                                something that a child uses to provide comfort or security during times of change or
+                                stress. These objects are often associated with the child's primary caregiver, and they
+                                can help the child to feel a sense of security and continuity, especially when they are
+                                away from their caregiver. Examples of transitional objects include a special blanket, a
+                                stuffed animal, or a favorite toy.
+                                <br>
+                                </br>
+                                These objects can help children to cope with changes such as starting school, moving to
+                                a new home, or adjusting to a new sibling. They can also provide comfort during
+                                stressful situations such as a medical procedure or a family member's illness.
+                                Transitional objects play an important role in a child's emotional development by
+                                helping them to develop a sense of self and to explore their emotions. They also help to
+                                promote attachment and secure attachment to their primary caregiver.
+                                <br>
+                                </br>
+                                It's important to note that transitional objects are not only for children, but also
+                                adults can use them as well. For example, an adult might have a special object that
+                                reminds them of a loved one and it can bring comfort during difficult times.
+                                As well as transitional objects are not just for children, play is also beneficial for
+                                adults, as it can help them to relax and reduce stress, as well as to develop their
+                                creativity and problem-solving abilities.
+                                <br>
+                                </br>
+                                These objects play an important role in a child's emotional development by helping them
+                                to develop a sense of self and to explore their emotions and promoting attachment and
+                                secure attachment to their primary caregiver. These objects can be used not only by
+                                children but also by adults.
+                                <br>
+                                </br>
+                                In conclusion, transitional objects provide comfort or security during times of change
+                                or stress and, along with play, they both play an essential part of a child's
+                                development. It is not only fun, but it also helps children to grow and learn in a
+                                variety of ways. It is important for parents and caregivers to provide opportunities for
+                                children to play and to encourage them to explore and discover the world around them.
+                                It's important to note that play should be appropriate to the child's developmental
+                                level, for example, providing toys that are age-appropriate and safe for the child to
+                                handle. Simple toys such as soft blocks, rattles, and stuffed animals can provide
+                                infants with opportunities to explore, discover, and learn.
+                                <br>
+                                </br>
+                                In summary, play is an essential part of a child's development, especially in the first
+                                year of life. It can help them develop a wide range of physical, emotional, and
+                                cognitive skills through play and exploration. Parents and caregivers can support this
+                                development by providing age-appropriate and safe toys and opportunities for play.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card-footer card-post border-success">
+                        <div>
+                            <p><strong>Author</strong>: Silvia Musarra</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--container-->
+
+        <footer class="blog-footer sticky-bottom col-12 p-0">
+            <footer class="blog-footer sticky-bottom col-12 p-0">
+                <div class="panel-footer container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 col-xs-12 justify-content-center align-self-center">
+                            <div class="panel panel-default>">
+                                <p>This site is not intended to provide, and does not constitute, medical or other
+                                    professional
+                                    advice. The content on <a href="../index.html">Psychogeek</a> is designed to
+                                    inform and not replace
+                                    any psychologic advice or psychiatric
+                                    treatment.</p>
+                            </div>
+                        </div>
+
+                        <div
+                            class="col-md-4 col-sm-6 col-xs-2 d-flex flex-column h100 justify-content-center align-self-center footer-left">
+                            <div class="panel panel-default">
+                                <p class="text-wrap">This site is maintained by <a href="about.html"
+                                        class="notranslate">Silvia
+                                        Musarra</a></p>
+                            </div>
+                        </div>
+
+                        <div
+                            class="col-md-2 col-sm-6 col-xs-10 d-flex flex-column text-left justify-content-center align-self-center footer-right">
+                            <div class="panel panel-default">
+                                <div class="get-in-touch">
+                                    <p class="text-primary"><a href="https://www.linkedin.com/in/silviamusarra/"
+                                            target="_blank" class="fa fa-linkedin footer-icon"></a>Linkedin</p>
+                                </div>
+                                <div class="get-in-touch">
+                                    <p class="text-danger"><a href="mailto: musarrasilvia@gmail.com" target="_blank"
+                                            class="fa fa-google footer-icon"></a>Gmail</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+            <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            <!--google translate-->
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                crossorigin="anonymous"></script>
+            <!--jQuery and Popper.js cdn-->
+    </body>
+
+    </html>
