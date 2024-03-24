@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title class="notranslate">Psychogeek</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--bootstrap css-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+        integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--bootstrap cdn-->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!--jQuery and Popper.js cdn-->
+
+    <script src="js/custom.js"></script>
+    <!--javscript-->
+
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <!--css-->
+
+    <link rel="icon" type="image.png" href="../Images/logo.png"/>
+    <!--logo icon-->
+
+    <!-- SEO tags -->
+    <meta name="title" content="Psychogeek">
+    <meta property="og:site_name" content="Psychogeek">
+    <meta property="og:title" content="Psychogeek">
+    <meta name="description" content="Psychology updates, step by step">
+    <meta property="og:description" content="Psychology updates, step by step">
+    <meta name="image" content="https://www.psychogeek.me/Images/logo_small.png">
+
+    <!-- <meta property="og:image" itemprop="image" content="https://www.psychogeek.me/Images/logo_small.png" />
+        <meta property="og:image:secure_url" itemprop="image" content="https://www.psychogeek.me/Images/logo_small.png" />
+        <meta property="og:image:type" content="image/jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+        <meta property="og:image" itemprop="image" content="https://www.psychogeek.me/Images/logo_small.png" />
+        <meta property="og:image:secure_url" itemprop="image" content="https://www.psychogeek.me/Images/logo_small.png" />
+        <meta property="og:image:type" content="image/jpg" />
+        <meta property="og:image:width" content="400" />
+        <meta property="og:image:height" content="400" /> -->
+
+    <meta property="og:image" itemprop="image" content="https://www.psychogeek.me/Images/logo_small.png" />
+    <meta property="og:image:secure_url" itemprop="image" content="https://www.psychogeek.me/Images/logo_small.png" />
+    <meta property="og:image:type" content="image/jpg" />
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="300" />
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="www.psychogeek.me">
+    <meta name="twitter:title" content="Psychogeek">
+    <meta name="twitter:description" content="Psychology updates, step by step">
+    <meta name="twitter:image" content="https://www.psychogeek.me/Images/logo_small.png">
+
+    <meta name="robots" content="index, follow">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2N24N2L1B4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-2N24N2L1B4');
+    </script>
+
+</head>
+
+<body>
+    <div class="container allButFooter">
+        <header class="blog-header py-3">
+            <div class="row flex-nowrap header-div justify-content-between align-items-center">
+                <div class="col-md-2 col-12 text-left header-logo">
+                    <a href="../index.html"><img class="img-responsive" src="../Images/logo.png" style="width:100%;"
+                            alt="Logo"></a>
+                </div>
+                <div class="col-md-8 col-12 text-center header-title">
+                    <a class="blog-header-logo notranslate text-dark" href="../index.html">
+                        <h1>Psychogeek</h1>
+                    </a>
+                </div>
+                <div class="col-md-2 col-12 pt-1 text-center">
+                    <a tabindex="0" class="btn btn-secondary newsletter-mobile" role="button" data-toggle="popover"
+                        data-trigger="click" data-placement="bottom" title="Subscribe to the newsletter" id="news-btn"
+                        data-content="">
+                        Newsletter
+                    </a>
+                    <div id="popover_content_wrapper" style="display: none">
+                        <form name="Form/newsletter-subcribers" action="https://formspree.io/f/mpzolvpv" method="POST">
+                            <div class="form-group">
+                                <label for="firstName">First name</label>
+                                <input name="firstName" type="text" class="form-control" id="firstName"
+                                    placeholder="First name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email address</label>
+                                <input name="email" type="email" class="form-control" id="email"
+                                    aria-describedby="emailHelp" placeholder="Enter email" required>
+                                <small id="emailHelp" class="form-text text-muted">
+                                    We'll never share your email with anyone else.
+                                </small>
+                            </div>
+                            <button type="submit" class="btn btn-primary" id="newsletterSubmit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--header-->
+
+
+            <div class="nav-scroller navbar-collapse navbar-expand-lg py-2 mb-2 nav-pills nav-fill">
+                <nav class="nav d-flex justify-content-between notranslate">
+                    <button class="navbar-toggler navbar-inverse transparent" type="button" data-toggle="collapse"
+                        data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-inverse justify-content-between navbar-collapse" id="navbarNavDropdown">
+                        <a class="p-2 text-muted" href="../index.html">Home</a>
+                        <a class="p-2 text-muted" href="../posts.html">Posts</a>
+                        <a class="p-2 text-muted" href="../about.html">About</a>
+                        <a class="p-2 text-muted" href="../contact.html">Contact</a>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="card border-... rounded mb-3">
+                <div class="card-header border-yellow card-post col-12 text-yellow">
+                    <div class="row">
+                        <div class="col-6">
+                            Psychoanalysis
+                        </div>
+                        <div class="col-6 text-right">
+                            13 Oct 2023
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="post-text">
+                        <h2 class="card-title text-...">Mindfulness: Navigating the Present Moment with Clarity and Compassion</h2>
+                        <p class="card-text">
+                            In our fast-paced, information-saturated lives, finding moments of stillness and presence can seem like an elusive
+                            quest. Enter mindfulness, a psychological construct that invites us to anchor ourselves in the here and now. Let's
+                            explore what mindfulness is, how it works, and its impact on mental well-being.
+                            <br>
+                            </br>
+                            The term “mindfulness” has been used to refer to a psychological state of awareness, a practice that promotes this
+                            awareness, a mode of processing information, and a characterological trait. It's a practice that cultivates awareness
+                            and acceptance, by encouraging to pay attention to the present moment without judgment and by learning to accept our
+                            experiences, rather than resisting or avoiding them. We observe our thoughts, emotions, bodily sensations, and the world
+                            around us, and we accept what happens. This doesn't mean we endorse everything; it means we acknowledge what's happening
+                            without unnecessary struggle.
+                            <br>
+                            </br>
+                            Mindfulness has gained popularity in recent years, but its origins trace back to ancient contemplative traditions,
+                            particularly Buddhism. However, you don't need to be spiritual or hold specific beliefs to practice mindfulness. It's
+                            accessible to everyone.
+                            <br>
+                            </br>
+                            While various disciplines and practices, such as yoga, tai chi, and qigong, can foster mindfulness, the predominant body
+                            of theoretical literature and empirical research has centered on mindfulness cultivated through mindfulness meditation.
+                            <br>
+                            Mindfulness operates on several levels:
+                            <ol>
+                            <li>Thought Awareness: We notice our thoughts as they arise. Instead of getting entangled in them, we observe them like
+                            passing clouds. This detachment helps us recognize that thoughts don't define us.</li>
+                            <li>Body Awareness: Our bodies constantly communicate with us. Mindfulness encourages us to listen—to feel the tension,
+                            the heartbeat, the breath. By tuning in, we become attuned to our physical state.</li>
+                            <li>Creating Space: Mindfulness creates a gap between stimulus and response. In that space, we choose how to react. We
+                            gain perspective, allowing us to respond thoughtfully rather than reactively.</li>
+                            </ol>
+                            Research findings increasingly support the positive effects of mindfulness, which can be categorized into various
+                            dimensions. Particularly relevant to psychotherapy are the affective, interpersonal, and intrapersonal benefits. In the
+                            affective dimension, mindfulness aids in emotion regulation. Proposed mechanisms suggest that mindfulness meditation
+                            enhances metacognitive awareness, reduces rumination by diverting from repetitive cognitive patterns, and improves
+                            attentional abilities, ultimately facilitating effective emotion regulation strategies. Additionally, mindfulness
+                            fosters decreased reactivity and heightened response flexibility. Studies indicate that mindfulness meditation helps
+                            individuals become less reactive and enhances cognitive flexibility.
+                            <br>
+                            </br>
+                            In the interpersonal realm, research suggests that trait mindfulness correlates with higher levels of relationship
+                            satisfaction, adeptness in constructively addressing relationship stress, proficiency in recognizing and expressing
+                            emotions to one's partner, as well as lower levels of relationship conflict, negativity, and increased empathy.
+                            Finally, in addition to the affective and interpersonal advantages mentioned earlier, mindfulness has demonstrated the
+                            capacity to improve functions related to the middle prefrontal lobe region of the brain, encompassing self-awareness,
+                            moral reasoning, intuitive abilities, and regulation of fear responses. Moreover, there is substantial evidence
+                            supporting various health benefits of mindfulness meditation, including enhanced immune system functioning, elevated
+                            well-being, and decreased psychological distress.
+                            <br>
+                            </br>
+                            There are hundreds of different ways to practise mindfulness. The more common is mindful meditation, which involves
+                            focusing on the present moment without judgment, cultivating awareness of thoughts, feelings, and sensations. Through
+                            practices like breath awareness or body scanning, it promotes relaxation, reduces stress, and improves overall
+                            well-being. Regular practice can enhance emotional resilience, concentration, and foster a sense of connection. It's
+                            associated with numerous health benefits, including reduced anxiety, depression, and increased psychological resilience.
+                            Mindful meditation encourages a compassionate approach to thoughts and emotions, leading to greater clarity and peace in
+                            daily life.
+                            <br>
+                            </br>
+                            But mindfulness practice isn’t confined to meditation session. On this topic, informal mindfulness involves bringing
+                            present-moment awareness to everyday activities, infusing them with a sense of mindfulness. Whether it's washing dishes,
+                            walking, or eating a meal, the practice encourages being fully engaged in the experience without judgment. Informal
+                            mindfulness invites noticing the sensations, thoughts, and emotions that arise in each moment, fostering a deeper
+                            connection to the present. By incorporating mindfulness into routine tasks, individuals can cultivate a greater sense of
+                            calm, clarity, and appreciation for the simple moments of life. It's about bringing mindfulness into every aspect of
+                            daily living, transforming ordinary moments into opportunities for presence and insight.
+                            <br>
+                            </br>
+                            Another most common practice is body scan. A mindful body scan involves systematically directing attention to different
+                            parts of the body, noticing sensations without judgment. By focusing on each area, individuals deepen their mind-body
+                            connection, reduce tension, and promote relaxation. This practice cultivates greater presence, acceptance, and
+                            well-being.
+                            <br>
+                            </br>
+                            While mindfulness practices offer significant benefits, they are not universally applicable and may not suit everyone,
+                            particularly those with certain mental health conditions. Moreover, consistent practice and commitment are required,
+                            which can be challenging for some individuals. Additionally, the effectiveness of mindfulness interventions can vary,
+                            and they may not address underlying systemic issues contributing to stress and suffering. Despite these limitations,
+                            mindfulness shows promise in enhancing well-being when practiced responsibly and in conjunction with other
+                            interventions.
+                            <br>
+                            </br>
+                            Overall, mindfulness offers valuable tools for promoting present-moment awareness and reducing stress, but its
+                            limitations underscore the importance of careful consideration and integration into broader approaches to mental health
+                            and well-being.
+                        </p>
+                    </div>
+                </div>
+                <div class="card-footer card-... border-...">
+                    <div>
+                        <p><strong>Author</strong>: Silvia Musarra </p>
+                    </div>
+                </div>
+
+        </div>
+        <!--container-->
+
+        <footer class="blog-footer sticky-bottom col-12 p-0">
+            <div class="panel-footer container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 col-xs-12 justify-content-center align-self-center">
+                        <div class="panel panel-default>">
+                            <p class="text-wrap footer-text">This site is not intended to provide, and does not constitute, medical or other
+                                professional
+                                advice. The content on <a href="../index.html" class="notranslate">Psychogeek</a> is
+                                designed to inform and not replace
+                                any psychologic advice or psychiatric
+                                treatment.</p>
+                        </div>
+                    </div>
+    
+                    <div
+                        class="col-md-4 col-sm-6 col-xs-2 d-flex flex-column h100 justify-content-center align-self-center footer-left">
+                        <div class="panel panel-default">
+                            <p class="text-wrap footer-text">This site is maintained by <a href="../about.html">Silvia Musarra</a>
+                            </p>
+                        </div>
+                    </div>
+    
+                    <div
+                        class="col-md-2 col-sm-6 col-xs-10 d-flex flex-column text-left justify-content-center align-self-center footer-right">
+                        <div class="panel panel-default">
+                            <div class="get-in-touch">
+                                <p class="text-primary"><a href="https://www.linkedin.com/in/silviamusarra/" target="_blank"
+                                        class="fa fa-linkedin footer-icon"></a><a href="https://www.linkedin.com/in/silviamusarra/" target="_blank">Linkedin</a></p>
+                            </div>
+                            <div class="get-in-touch">
+                                <p class="text-danger"><a href="mailto: musarrasilvia@gmail.com" target="_blank"
+                                        class="fa fa-google footer-icon"></a> <a href="mailto: musarrasilvia@gmail.com" target="_blank">Gmail</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+        <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <!-- google translate -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <!--jQuery and Popper.js cdn-->
+    </body>
+    
+</html>

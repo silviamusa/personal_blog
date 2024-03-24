@@ -3,7 +3,7 @@
     position: absolute;
     bottom: 0;
     width: 100vh;
-    height: 241px;
+    height: 150px;
 }
 
 .blog-footer {
@@ -19,7 +19,7 @@
 }
 
 .blog-header-logo{
-    font-family: "Comic Sans MS",Helvetica,Arial,sans-serif;
+    font-family: "Libre Baskerville","Times New Roman","sans-serif";
 }
 
 #news-btn{
@@ -66,6 +66,11 @@
     background-color: rgba(255, 255, 255, 1);
     z-index: 99;
 }
+
+.grid-container {
+    display: grid;  
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
 
 .img-no-stretch{
     object-fit: cover
@@ -114,13 +119,13 @@
     top: -5px;
     font-weight: bold;
     font-size:80px;
-    font-family: "Times New Roman",Helvetica,Arial,serif;
+    font-family: "Libre Baskerville","Times New Roman","serif";
 }
 
 .block-text{
     display: block;
     position: relative;
-    font-family: "Segoe UI",Helvetica,Arial,sans-serif;
+    font-family: "Libre Baskerville","Times New Roman","sans-serif";
     font-size: large;
     padding-top: 2%;
     padding-left: 5%;
@@ -134,12 +139,12 @@
     font-size: 80px;
     position: relative;
     margin-top: -8%;
-    font-family: "Times New Roman",Helvetica,Arial,serif;
+    font-family: "Libre Baskerville","Times New Roman","serif";
 }
 
 .post-text{
-    font-family: "Segoe UI",Helvetica,Arial,sans-serif;
-    font-size: large;
+    font-family: "Libre Baskerville","Times New Roman","sans-serif";
+    font-size: 18px;
 }
 
 .continue-reading{
@@ -185,11 +190,13 @@ li a{
     background-color: rgb(0, 123, 181);
     color: rgb(255, 255, 255);
     display: inline;
-    padding: 20px;
-    font-size: 30px;
+    padding: 15px;
+    font-size: 20px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 10px;
 }
 
 .fa-linkedin:hover{
@@ -202,11 +209,13 @@ li a{
     background: rgb(221, 75, 57);
     color: rgb(255, 255, 255);
     display: inline;
-    padding: 20px;
-    font-size: 30px;
+    padding: 15px;
+    font-size: 20px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 10px;
 }
 
 .fa-google:hover{
@@ -216,15 +225,15 @@ li a{
 }
 
 .get-in-touch{
-    margin: 50px 5px;
+    margin: 40px 5px;
 }
 
 .fa-wpforms{
     background: rgba(255, 193, 7, 1);;
     color: rgb(255, 255, 255);
     display: inline;
-    padding: 20px;
-    font-size: 30px;
+    padding: 15px;
+    font-size: 20px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
