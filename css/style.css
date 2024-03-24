@@ -70,7 +70,7 @@
 .grid-container {
     display: grid;  
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  }
+}
 
 .img-no-stretch{
     object-fit: cover
@@ -275,6 +275,7 @@ li a{
 .goog-tooltip {
     display: none !important;
 }
+
 .goog-tooltip:hover {
     display: none !important;
 }
